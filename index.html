@@ -1,0 +1,154 @@
+<!-- {% extends 'blog/layout.html' %}
+
+{% load static %}
+
+{% block 'body' %} -->
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="{% static 'blog/styles.css' %}"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">TECHUB</div>
+        <ul>
+            <li><a href="{% url 'home'%}">Home</a></li>
+            <li><a href="{% url 'about'%}">About</a></li>
+            <li><a href="{% url 'contact'%}">Contact</a></li>
+            <li><a href="{% url 'team'%}">Team</a></li>
+        </ul>
+        <div class="register">
+            <div class="reg"><a href="{% url 'signup'%}">Sign up</a></div>       
+            <div class="login"><a href="{% url 'login'%}">Login</a></div>
+        </div>
+            <div class="burger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    </nav>
+    <section class="body">
+        <div class="hero">
+            <div class="one">
+                <h1>YOUR HOME <br>FOR TECH <br>UPDATES</h1>
+                <p>Python, Django, Dart, C++, C#, Ruby, TECHUB is your home for updated tech news</p>
+        
+            </div>
+            <div class="two">
+                <img width="100%" src="tech.png" alt="">
+        
+            </div>
+        </div>
+        <div class="sect">
+        <h1>BLOG POST</h1>
+        <div class=" div article">
+            <div class="artone">
+              <div class="card">
+                <div class="contain">
+                    <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <!-- <p class="date">date created</p> -->
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+                <!-- <div class="circle"></div> -->
+        
+              </div>  
+              <div class="card">
+                <div class="contain">
+                    <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <!-- <p class="date">date created</p> -->
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+                <!-- <div class="circle"></div> -->
+        
+              </div>  
+              <div class="card">
+                <div class="contain">
+                    <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <!-- <p class="date">date created</p> -->
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+                <!-- <div class="circle"></div> -->
+        
+              </div>  
+              <div class="card">
+                <div class="contain">
+                    <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <!-- <p class="date">date created</p> -->
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+                <!-- <div class="circle"></div> -->
+        
+              </div>  
+              <div class="card">
+                <div class="contain">
+                    <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <!-- <p class="date">date created</p> -->
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+                <!-- <div class="circle"></div> -->
+        
+              </div>  
+        </div>
+            <div class="arttwo">
+                <p>
+                    <img src="" alt="" class="art">
+                </p>
+                <h4>Digital Art Library Project</h4>
+                <p>People Involved</p>
+                <p>Emmy</p>
+                <p>Fred</p>
+                <p>Somzy</p>
+                <p>Ifeanyi</p>
+                <p>Youngcliff</p>
+            </div>
+        </div>
+        
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <div class="ft">
+            <h2>TECHUB</h2>
+            <li><a href="{% url 'home'%}">Home</a></li>
+            <li><a href="{% url 'about'%}">About</a></li>
+            <li><a href="{% url 'contact'%}">Contact</a></li>
+            <li><a href="{% url 'team'%}">Team</a></li>
+            </div>
+            <div class="ft">
+                <form action="">
+                    <li><input type="text" placeholder="newsletter"></li>
+                    <li><input type="submit" value="Subscribe"></li>
+                </form>
+            </div>
+            <div class="ft">
+                <p>Email: info@techub.com.ng</p>
+                <p>Phone: 09030987132 </p>
+                <p>Whatsapp: 08097827739</p>
+                <p>Address: Digital Art Library </p>
+            </div>
+        </div>
+        &copy TECHUB
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/9da17deac8.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- {% endblock %} -->
